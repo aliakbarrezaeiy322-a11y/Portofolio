@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<script>document.documentElement.classList.add('js');setTimeout(function(){if(!window.__ok)document.documentElement.classList.remove('js')},4000)</script>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>سارا احمدی | استراتژیست رشد دیجیتال</title>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f3f1ff;--card:#ffffffb8;--text:#141028;--muted:#6a6585;--line:#ddd8f7;--a:#7c5cff;--b:#ff4d9d;--c:#22d3ee;--d:#b6ff5c;--inv:#141028;--invt:#f3f1ff;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#06050e;--card:#14122a99;--text:#f4f2ff;--muted:#9c98bd;--line:#2b2756;--inv:#f4f2ff;--invt:#06050e}}
+:root[data-theme="dark"]{--bg:#06050e;--card:#14122a99;--text:#f4f2ff;--muted:#9c98bd;--line:#2b2756;--inv:#f4f2ff;--invt:#06050e}
+html{scroll-behavior:smooth;scroll-padding-top:90px}*{box-sizing:border-box;margin:0}
+body{font-family:'Vazirmatn',Tahoma,sans-serif;background:var(--bg);color:var(--text);overflow-x:hidden}
+.aur{position:fixed;inset:0;z-index:0;pointer-events:none;background:radial-gradient(40% 35% at 85% 10%,#7c5cff55,#0000),radial-gradient(35% 35% at 10% 90%,#ff4d9d44,#0000),radial-gradient(30% 30% at 50% 50%,#22d3ee22,#0000);animation:aur 16s ease-in-out infinite alternate}
+@keyframes aur{to{transform:scale(1.25) rotate(6deg)}}
+#pg{position:fixed;top:0;right:0;height:3px;width:0;z-index:60;background:linear-gradient(270deg,var(--a),var(--b),var(--c))}
+.cur{position:fixed;top:0;left:0;width:36px;height:36px;margin:-18px;border-radius:50%;border:1.5px solid var(--b);pointer-events:none;z-index:70;transition:width .25s,height .25s,margin .25s,background .25s;mix-blend-mode:difference}
+.cur.h{width:70px;height:70px;margin:-35px;background:#ff4d9d33}
+@media(pointer:coarse){.cur{display:none}}
+.wrap{position:relative;z-index:1;max-width:1200px;margin:0 auto;padding:0 16px 50px}
+nav{position:sticky;top:calc(env(safe-area-inset-top,0px) + 10px);z-index:40;display:flex;align-items:center;justify-content:space-between;margin:12px 0 16px;padding:8px 10px 8px 16px;background:var(--card);border:1px solid var(--line);border-radius:22px;backdrop-filter:blur(18px)}
+.logo{font-weight:900;font-size:18px}.logo b{color:var(--b)}
+nav .r{display:flex;gap:8px;align-items:center}
+.tg{background:var(--line);border:0;color:var(--text);width:38px;height:38px;border-radius:12px;cursor:pointer;font-size:16px}
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}
+.box{--mx:50%;--my:50%;grid-column:span 12;background:var(--card);border:1px solid var(--line);border-radius:28px;padding:26px;backdrop-filter:blur(16px);position:relative;overflow:hidden}
+.js .box{opacity:0;transform:translateY(30px)}
+.js .box.in{opacity:1;transform:none;transition:opacity .8s,transform .8s cubic-bezier(.2,.8,.2,1),border-color .3s}
+.box::before{content:"";position:absolute;inset:0;background:radial-gradient(360px circle at var(--mx) var(--my),#7c5cff30,#0000 60%);opacity:0;transition:opacity .3s;pointer-events:none}
+.box:hover::before{opacity:1}.box:hover{border-color:var(--a)}
+.s3{grid-column:span 3}.s5{grid-column:span 5}.s6{grid-column:span 6}.s7{grid-column:span 7}
+h2{font-size:14px;font-weight:800;margin-bottom:16px;display:flex;align-items:center;gap:8px;color:var(--muted)}h2::before{content:"";width:18px;height:3px;border-radius:3px;background:linear-gradient(90deg,var(--a),var(--b))}
+.hero{height:620px;padding:0;background:radial-gradient(80% 90% at 50% 50%,#1b1245,#06050e);border:1px solid #3a2f8a;color:#fff}
+.hero canvas{position:absolute;inset:0;width:100%;height:100%}
+.hero .top,.hero .bot{position:absolute;left:0;right:0;padding:26px;z-index:2;pointer-events:none}
+.hero .top{top:0;display:flex;justify-content:space-between;align-items:flex-start;gap:12px}.hero .bot{bottom:0;text-align:center}
+.tag{display:inline-flex;align-items:center;gap:8px;background:#ffffff1f;padding:7px 15px;border-radius:99px;font-size:13px;backdrop-filter:blur(8px)}
+.dot{width:9px;height:9px;border-radius:50%;background:var(--d);animation:pl 1.6s infinite}@keyframes pl{50%{box-shadow:0 0 0 9px #b6ff5c00;opacity:.6}}
+.hero h1{font-size:clamp(18px,3vw,28px);font-weight:300;line-height:1.9;margin-bottom:6px}.hero h1 b{font-weight:900;background:linear-gradient(90deg,var(--c),var(--b));-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero small{opacity:.6;font-size:12px}
+.cta{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:16px;pointer-events:auto}
+.btn{padding:14px 26px;border-radius:16px;font-family:inherit;font-weight:800;font-size:14px;text-decoration:none;border:0;cursor:pointer;display:inline-block;transition:transform .2s,box-shadow .3s}
+.btn.w{background:#fff;color:#4a2fd1}.btn.g{background:#ffffff1f;color:#fff;border:1px solid #fff6}.btn.p{background:linear-gradient(135deg,var(--a),var(--b));color:#fff}.btn:hover{box-shadow:0 10px 30px #7c5cff77}
+.fw{position:absolute;inset:0;display:grid;place-items:center;font-size:clamp(90px,26vw,260px);font-weight:900;background:linear-gradient(90deg,var(--a),var(--b),var(--c));-webkit-background-clip:text;background-clip:text;color:transparent}
+.pr .fw{display:none}
+.mq{padding:16px 0;border-radius:22px;direction:ltr}.mq div{display:flex;gap:40px;width:max-content;animation:mq 26s linear infinite;font-weight:900;font-size:26px;color:var(--muted)}.mq span:nth-child(even){color:var(--a)}@keyframes mq{to{transform:translateX(-50%)}}
+.stat .n{font-size:50px;font-weight:900;line-height:1.2;background:linear-gradient(135deg,var(--a),var(--b));-webkit-background-clip:text;background-clip:text;color:transparent}.stat .l{color:var(--muted);font-size:13px}
+.sim{display:grid;grid-template-columns:5fr 7fr;gap:26px}
+.sim h3{font-size:clamp(22px,3vw,32px);font-weight:900;line-height:1.5;margin-bottom:10px}.sim p{color:var(--muted);font-size:13px;line-height:2;margin-bottom:18px}
+.chs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:20px}
+.fb{font-family:inherit;border:1px solid var(--line);background:none;color:var(--text);padding:9px 18px;border-radius:99px;cursor:pointer;font-weight:700;font-size:13px;transition:.2s}.fb.on,.fb:hover{background:var(--a);border-color:var(--a);color:#fff}
+.sl label{display:flex;justify-content:space-between;font-weight:800;font-size:14px;margin-bottom:10px}.sl label span{color:var(--b)}
+input[type=range]{-webkit-appearance:none;appearance:none;width:100%;height:10px;border-radius:10px;background:var(--line);outline:0;direction:ltr}
+input[type=range]::-webkit-slider-thumb{-webkit-appearance:none;width:28px;height:28px;border-radius:50%;background:linear-gradient(135deg,var(--a),var(--b));border:4px solid var(--bg);box-shadow:0 4px 14px #7c5cff88;cursor:pointer}
+input[type=range]::-moz-range-thumb{width:22px;height:22px;border-radius:50%;background:var(--b);border:4px solid var(--bg);cursor:pointer}
+.res{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:16px}
+.res div{background:var(--bg);border:1px solid var(--line);border-radius:18px;padding:14px;text-align:center}.res b{display:block;font-size:24px;font-weight:900;background:linear-gradient(135deg,var(--a),var(--b));-webkit-background-clip:text;background-clip:text;color:transparent}.res small{color:var(--muted);font-size:12px}
+.bars{display:flex;align-items:flex-end;gap:6px;height:150px;direction:ltr;padding-top:8px}.bars i{flex:1;border-radius:8px 8px 3px 3px;background:linear-gradient(180deg,var(--b),var(--a));transition:height .9s cubic-bezier(.2,.8,.2,1);min-height:6px;opacity:.9}
+.note{font-size:11px;color:var(--muted);margin-top:10px}
+.cases{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;perspective:1000px}
+.cs{border-radius:24px;padding:22px;min-height:260px;display:flex;flex-direction:column;justify-content:space-between;color:#fff;position:relative;transition:transform .15s;transform-style:preserve-3d;will-change:transform}
+.cs:nth-child(1){background:linear-gradient(150deg,#0fbf9f,#0a6e8c)}.cs:nth-child(2){background:linear-gradient(150deg,#ff9f1c,#ff4d6d)}.cs:nth-child(3){background:linear-gradient(150deg,#6a4cff,#c13cff)}
+.cs span{font-size:12px;background:#ffffff30;padding:4px 12px;border-radius:99px;width:fit-content;transform:translateZ(30px)}.cs .big{font-size:54px;font-weight:900;line-height:1.1;transform:translateZ(60px)}.cs h3{font-size:16px;margin:8px 0 4px;transform:translateZ(30px)}.cs p{font-size:12.5px;opacity:.92;line-height:1.9}
+.sv i{font-style:normal;font-size:28px;width:56px;height:56px;border-radius:18px;display:grid;place-items:center;background:linear-gradient(135deg,#7c5cff33,#ff4d9d33);margin-bottom:10px}.sv h3{font-size:16px;margin-bottom:6px}.sv p{color:var(--muted);font-size:13px;line-height:2}.sv:hover i{animation:wg .6s}@keyframes wg{50%{transform:rotate(-12deg) scale(1.15)}}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.st b{display:grid;place-items:center;width:46px;height:46px;border-radius:50%;background:linear-gradient(135deg,var(--a),var(--b));color:#fff;font-weight:900;margin-bottom:12px;box-shadow:0 8px 20px #7c5cff55}.st h3{font-size:16px;margin-bottom:6px}.st p{color:var(--muted);font-size:13px;line-height:2}
+.qt{min-height:230px;display:flex;flex-direction:column;justify-content:space-between}.qt .q{font-size:36px;color:var(--a);line-height:1}.qt p{font-size:16px;line-height:2.1;font-weight:600;transition:opacity .4s}.who{display:flex;align-items:center;gap:12px;color:var(--muted);font-size:13px;margin-top:14px}.who i{width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,var(--c),var(--a))}
+.dots{display:flex;gap:6px;margin-top:12px}.dots u{width:8px;height:8px;border-radius:9px;background:var(--line);transition:.3s;cursor:pointer}.dots u.on{width:26px;background:var(--a)}
+details{border-bottom:1px solid var(--line);padding:14px 0}details:last-child{border:0}summary{cursor:pointer;font-weight:800;font-size:14px;list-style:none;display:flex;justify-content:space-between}summary::after{content:"+";color:var(--a);font-size:20px;transition:.3s}details[open] summary::after{transform:rotate(45deg)}details p{color:var(--muted);font-size:13px;line-height:2;margin-top:10px}
+.ct{background:var(--inv);color:var(--invt);border:0}.ct h2{color:inherit;opacity:.7}.ct h3{font-size:clamp(24px,4vw,40px);font-weight:900;line-height:1.5;margin-bottom:18px}
+.ct form{display:grid;gap:10px}.ct input,.ct textarea{font-family:inherit;padding:14px 16px;border-radius:14px;border:1px solid #8886;background:#8881;color:inherit;font-size:14px;outline:0}.ct input:focus,.ct textarea:focus{border-color:var(--b);box-shadow:0 0 0 4px #ff4d9d33}
+.soc{display:flex;gap:8px;flex-wrap:wrap;margin-top:14px}.soc span{padding:7px 14px;border-radius:12px;border:1px solid #8886;font-size:12px;font-weight:600}
+footer{text-align:center;color:var(--muted);font-size:12px;margin-top:28px}
+@media(max-width:960px){.s3{grid-column:span 6}.s5,.s6,.s7{grid-column:span 12}.sim,.cases{grid-template-columns:1fr}.steps{grid-template-columns:1fr 1fr}.hero{height:560px}}
+@media(max-width:560px){.s3{grid-column:span 12}.steps{grid-template-columns:1fr}.res b{font-size:19px}.box{padding:20px}.hero .top{flex-direction:column}}
+</style>
+</head>
+<body>
+<div class="aur"></div><div id="pg"></div><div class="cur" id="cur"></div>
+<div class="wrap">
+<nav><div class="logo">سارا<b>.</b>احمدی</div><div class="r"><a class="btn p mg" style="padding:9px 18px" href="#ct">تماس</a><button class="tg" id="tg" aria-label="تغییر تم">◐</button></div></nav>
+<div class="grid">
+<div class="box hero"><div class="fw">رشد</div><canvas id="cv"></canvas>
+<div class="top"><span class="tag"><i class="dot"></i> آماده همکاری در پروژه‌های جدید</span><span class="tag">ماوس را حرکت دهید ✦</span></div>
+<div class="bot"><h1>سارا احمدی · استراتژیست دیجیتال مارکتینگ<br>برای برندها <b>رشد قابل‌اندازه‌گیری</b> می‌سازم</h1><small>۷ سال تجربه · ۱۲۰+ پروژه · سئو، تبلیغات، محتوا</small>
+<div class="cta"><a class="btn w mg" href="#sm">محاسبه رشد کسب‌وکار شما</a><a class="btn g mg" href="#wk">نمونه‌کارها ←</a></div></div></div>
+<div class="box mq"><div id="mq"></div></div>
+<div class="box s3 stat"><h2>پروژه موفق</h2><div class="n" data-n="120" data-s="+">۱۲۰+</div><div class="l">در ۱۴ صنعت</div></div>
+<div class="box s3 stat"><h2>رشد ترافیک</h2><div class="n" data-n="350" data-s="٪">۳۵۰٪</div><div class="l">میانگین ارگانیک</div></div>
+<div class="box s3 stat"><h2>بازگشت سرمایه</h2><div class="n" data-n="8" data-s="x">۸x</div><div class="l">در تبلیغات</div></div>
+<div class="box s3 stat"><h2>بودجه مدیریت‌شده</h2><div class="n" data-n="45" data-s="م+">۴۵م+</div><div class="l">میلیارد تومان</div></div>
+
+<div class="box" id="sm"><div class="sim"><div><h2>شبیه‌ساز رشد</h2><h3>ببینید با بودجه شما چه اتفاقی می‌افتد</h3><p>کانال و بودجه ماهانه را انتخاب کنید تا تخمینی از نتیجه ۱۲ ماهه ببینید.</p>
+<div class="chs" id="chs"></div><div class="sl"><label>بودجه ماهانه <span id="bv">۵۰ م. تومان</span></label><input type="range" id="bd" min="5" max="200" value="50"></div></div>
+<div><div class="res"><div><b id="r1">۴۵٬۰۰۰</b><small>بازدیدکننده / ماه</small></div><div><b id="r2">۱٬۸۰۰</b><small>لید ماهانه</small></div><div><b id="r3">۶۶۰</b><small>درآمد (م. تومان)</small></div></div><div class="bars" id="bars"></div><div class="note">* تخمین نمونه بر پایه میانگین پروژه‌ها؛ نتیجه واقعی به صنعت و رقابت بستگی دارد.</div></div></div></div>
+
+<div class="box" id="wk"><h2>نمونه‌کارها</h2><div class="cases">
+<div class="cs tl"><span>سئو · فروشگاه پوشاک</span><div><div class="big">+۴۲۰٪</div><h3>ترافیک ارگانیک در ۸ ماه</h3><p>بازطراحی ساختار سایت و ۱۲۰ مقاله هدفمند.</p></div></div>
+<div class="cs tl"><span>تبلیغات · استارتاپ</span><div><div class="big">−۶۰٪</div><h3>کاهش هزینه جذب مشتری</h3><p>تست A/B خلاقیت‌ها و بازنویسی قیف.</p></div></div>
+<div class="cs tl"><span>شبکه اجتماعی · کافه</span><div><div class="big">۲.۵M</div><h3>بازدید ریلز در ۳ ماه</h3><p>کمونیتی و محتوای ویروسی برای برند محلی.</p></div></div></div></div>
+
+<div class="box"><h2>خدمات</h2><div class="cases" style="perspective:none">
+<div class="sv"><i>🔍</i><h3>سئو و محتوا</h3><p>کلمات کلیدی، سئو تکنیکال و تقویم محتوایی هدفمند.</p></div>
+<div class="sv"><i>🎯</i><h3>تبلیغات پرفورمنس</h3><p>کمپین گوگل و متا با تمرکز بر فروش و کاهش هزینه.</p></div>
+<div class="sv"><i>📱</i><h3>شبکه‌های اجتماعی</h3><p>استراتژی، ریلز و ساخت کمونیتی وفادار.</p></div>
+<div class="sv"><i>✉️</i><h3>ایمیل و اتوماسیون</h3><p>قیف فروش خودکار از مشتری سرد تا وفادار.</p></div>
+<div class="sv"><i>📊</i><h3>آنالیتیکس و CRO</h3><p>داشبورد شفاف و تست A/B برای تصمیم با عدد.</p></div>
+<div class="sv"><i>💎</i><h3>برندینگ دیجیتال</h3><p>هویت و لحنی که در ذهن می‌ماند.</p></div></div></div>
+
+<div class="box"><h2>فرایند همکاری</h2><div class="steps">
+<div class="st"><b>۱</b><h3>کشف و تحلیل</h3><p>بررسی وضعیت، رقبا و فرصت‌های پنهان.</p></div>
+<div class="st"><b>۲</b><h3>استراتژی</h3><p>نقشه راه با شاخص‌های قابل اندازه‌گیری.</p></div>
+<div class="st"><b>۳</b><h3>اجرا و تست</h3><p>پیاده‌سازی سریع و بهینه‌سازی هفتگی.</p></div>
+<div class="st"><b>۴</b><h3>گزارش و رشد</h3><p>گزارش شفاف و مقیاس‌دهی آنچه جواب داد.</p></div></div></div>
+
+<div class="box s6 qt"><div><h2>نظر مشتریان</h2><div class="q">❝</div><p id="qp"></p></div><div><div class="who"><i></i><span id="qw"></span></div><div class="dots" id="dots"></div></div></div>
+<div class="box s6"><h2>سؤالات متداول</h2>
+<details><summary>چقدر طول می‌کشد نتیجه ببینم؟</summary><p>تبلیغات از هفته‌های اول؛ سئو معمولاً ۳ تا ۶ ماه.</p></details>
+<details><summary>با چه کسب‌وکارهایی کار می‌کنید؟</summary><p>استارتاپ، فروشگاه آنلاین و برندهای خدماتی آماده رشد.</p></details>
+<details><summary>هزینه همکاری چقدر است؟</summary><p>پروژه‌ای یا ماهانه؛ بعد از مشاوره رایگان پیشنهاد دقیق می‌دهم.</p></details></div>
+
+<div class="box ct" id="ct"><div class="sim"><div><h2>تماس</h2><h3>بیایید رشد بعدی‌تان را بسازیم ✨</h3><div class="soc"><span>Instagram</span><span>LinkedIn</span><span>Telegram</span><span>hello@example.com</span></div></div>
+<form id="fm"><input id="nm" placeholder="نام شما"><input id="em" type="email" placeholder="ایمیل"><textarea id="ms" rows="3" placeholder="درباره پروژه‌تان بگویید..."></textarea><button class="btn p mg" type="submit">ارسال پیام ←</button></form></div></div>
+</div>
+<footer>© ۱۴۰۵ سارا احمدی · طراحی‌شده با ♥ و کمی قهوه</footer>
+</div>
+<script>
+const $=s=>document.querySelector(s),$$=s=>document.querySelectorAll(s),fa=n=>Math.round(n).toLocaleString('fa-IR');
+$('#mq').innerHTML=Array(2).fill('<span>SEO</span><span>✦</span><span>Performance Ads</span><span>✦</span><span>Content</span><span>✦</span><span>Branding</span><span>✦</span><span>Analytics</span><span>✦</span><span>Growth</span><span>✦</span>').join('');
+/* particle morph hero */
+const cv=$('#cv'),x=cv.getContext('2d'),N=1700,P=[],M={x:-999,y:-999},words=['رشد','فروش','برند','سئو','نتیجه'];let W,H,wi=0,T=[];
+const off=document.createElement('canvas'),ox=off.getContext('2d');
+function sample(w){const s=Math.min(W/(w.length*1.1),H*.42);off.width=W;off.height=H;ox.clearRect(0,0,W,H);ox.fillStyle='#fff';ox.font='900 '+s+'px Vazirmatn,Tahoma';ox.textAlign='center';ox.textBaseline='middle';ox.direction='rtl';ox.fillText(w,W/2,H*.46);const d=ox.getImageData(0,0,W,H).data,pts=[],g=Math.max(3,Math.round(s/40));for(let y=0;y<H;y+=g)for(let i=0;i<W;i+=g)if(d[(y*W+i)*4+3]>128)pts.push([i,y]);for(let i=pts.length-1;i>0;i--){const j=Math.random()*(i+1)|0;[pts[i],pts[j]]=[pts[j],pts[i]]}return pts}
+function setT(){const p=sample(words[wi]);T=Array.from({length:N},(_,i)=>p[i%p.length]||[W/2,H/2])}
+function rs(){const r=cv.getBoundingClientRect(),dpr=Math.min(devicePixelRatio,2);W=r.width;H=r.height;cv.width=W*dpr;cv.height=H*dpr;x.setTransform(dpr,0,0,dpr,0,0);setT()}
+(document.fonts?document.fonts.load('900 80px Vazirmatn','رشد'):Promise.resolve()).catch(()=>{}).then(()=>{rs();document.documentElement.classList.add('pr');for(let i=0;i<N;i++)P.push({x:Math.random()*W,y:Math.random()*H,vx:0,vy:0,s:Math.random()*1.6+.8});
+setInterval(()=>{wi=(wi+1)%words.length;setT()},3200);
+(function f(){x.clearRect(0,0,W,H);for(let i=0;i<N;i++){const p=P[i],t=T[i],dx=M.x-p.x,dy=M.y-p.y,d=dx*dx+dy*dy;p.vx+=(t[0]-p.x)*.035;p.vy+=(t[1]-p.y)*.035;if(d<14000){const k=(1-d/14000)*9,l=Math.sqrt(d)||1;p.vx-=dx/l*k;p.vy-=dy/l*k}p.vx*=.86;p.vy*=.86;p.x+=p.vx;p.y+=p.vy;x.fillStyle='hsl('+(255+p.x/W*110)+',95%,'+(62+Math.abs(p.vx+p.vy)*2)+'%)';x.fillRect(p.x,p.y,p.s,p.s)}requestAnimationFrame(f)})()});
+addEventListener('resize',()=>{if(P.length)rs()});
+cv.parentNode.addEventListener('mousemove',e=>{const r=cv.getBoundingClientRect();M.x=e.clientX-r.left;M.y=e.clientY-r.top});cv.parentNode.addEventListener('mouseleave',()=>M.x=-999);
+cv.parentNode.addEventListener('touchmove',e=>{const r=cv.getBoundingClientRect(),t=e.touches[0];M.x=t.clientX-r.left;M.y=t.clientY-r.top},{passive:true});
+/* cursor + magnetic */
+const cur=$('#cur');let cx=0,cy=0,tx=0,ty=0;addEventListener('mousemove',e=>{tx=e.clientX;ty=e.clientY});(function c(){cx+=(tx-cx)*.2;cy+=(ty-cy)*.2;cur.style.transform=`translate(${cx}px,${cy}px)`;requestAnimationFrame(c)})();
+$$('a,button,input,summary,u').forEach(e=>{e.addEventListener('mouseenter',()=>cur.classList.add('h'));e.addEventListener('mouseleave',()=>cur.classList.remove('h'))});
+$$('.mg').forEach(b=>{b.addEventListener('mousemove',e=>{const r=b.getBoundingClientRect();b.style.transform=`translate(${(e.clientX-r.left-r.width/2)*.25}px,${(e.clientY-r.top-r.height/2)*.4}px)`});b.addEventListener('mouseleave',()=>b.style.transform='')});
+/* 3D tilt */
+$$('.tl').forEach(c=>{c.addEventListener('mousemove',e=>{const r=c.getBoundingClientRect(),px=(e.clientX-r.left)/r.width-.5,py=(e.clientY-r.top)/r.height-.5;c.style.transform=`rotateY(${-px*18}deg) rotateX(${py*18}deg) scale(1.04)`});c.addEventListener('mouseleave',()=>c.style.transform='')});
+/* simulator */
+const CH={seo:['سئو',900,.04,2.2,1.6],ads:['تبلیغات',1500,.03,3.4,1.15],soc:['شبکه اجتماعی',2200,.015,1.8,1.9]};let cc='seo';
+$('#chs').innerHTML=Object.keys(CH).map(k=>`<button class="fb${k=='seo'?' on':''}" data-k="${k}">${CH[k][0]}</button>`).join('');
+const cache={r1:0,r2:0,r3:0};function tw(id,to){const el=$('#'+id),f=cache[id],t0=performance.now();(function s(t){const p=Math.min((t-t0)/700,1),v=f+(to-f)*(1-Math.pow(1-p,3));el.textContent=fa(v);if(p<1)requestAnimationFrame(s);else cache[id]=to})(t0)}
+$('#bars').innerHTML=Array(12).fill('<i></i>').join('');
+function sim(){const b=+$('#bd').value,c=CH[cc];$('#bv').textContent=fa(b)+' م. تومان';const v=b*c[1],bars=$$('#bars i');tw('r1',v);tw('r2',v*c[2]);tw('r3',b*c[3]*6);bars.forEach((e,i)=>e.style.height=(Math.pow((i+1)/12,c[4])*100)+'%')}
+$('#chs').onclick=e=>{if(!e.target.dataset.k)return;cc=e.target.dataset.k;$$('#chs .fb').forEach(x=>x.classList.toggle('on',x==e.target));sim()};$('#bd').oninput=sim;sim();
+/* testimonials */
+const Q=[['سارا نه‌تنها ترافیک ما را چند برابر کرد، بلکه تفکر دیجیتال را وارد تیم ما کرد. بهترین سرمایه‌گذاری سال بود.','مدیرعامل · فروشگاه نمونه'],['هزینه جذب مشتری ما در دو ماه نصف شد. گزارش‌هایش شفاف و تصمیم‌هایش دقیق است.','بنیان‌گذار · استارتاپ نمونه'],['کافه ما از یک مکان محلی به برندی شناخته‌شده تبدیل شد.','صاحب برند · کافه نمونه']];let qi=0,qt;
+$('#dots').innerHTML=Q.map((_,i)=>`<u data-i="${i}"></u>`).join('');
+function sq(i){qi=i;const p=$('#qp');p.style.opacity=0;setTimeout(()=>{p.textContent=Q[i][0];$('#qw').textContent=Q[i][1];p.style.opacity=1},250);$$('.dots u').forEach((u,k)=>u.classList.toggle('on',k==i));clearInterval(qt);qt=setInterval(()=>sq((qi+1)%Q.length),6000)}
+$('#dots').onclick=e=>e.target.dataset.i&&sq(+e.target.dataset.i);sq(0);
+/* reveal + counters + spotlight */
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(!e.isIntersecting)return;const b=e.target;b.classList.add('in');b.querySelectorAll('[data-n]').forEach(el=>{const t=+el.dataset.n,s=el.dataset.s;let s0=null;const f=ts=>{s0=s0||ts;const p=Math.min((ts-s0)/1700,1);el.textContent=fa(t*(1-Math.pow(1-p,3)))+s;if(p<1)requestAnimationFrame(f)};requestAnimationFrame(f)});io.unobserve(b)}),{threshold:.12});
+$$('.box').forEach(b=>{io.observe(b);b.addEventListener('mousemove',e=>{const r=b.getBoundingClientRect();b.style.setProperty('--mx',e.clientX-r.left+'px');b.style.setProperty('--my',e.clientY-r.top+'px')})});
+addEventListener('scroll',()=>{const h=document.documentElement;$('#pg').style.width=(h.scrollTop/(h.scrollHeight-h.clientHeight)*100)+'%'},{passive:true});
+$('#tg').onclick=()=>{const r=document.documentElement,d=r.dataset.theme?r.dataset.theme==='dark':matchMedia('(prefers-color-scheme: dark)').matches;r.dataset.theme=d?'light':'dark'};
+$('#fm').onsubmit=e=>{e.preventDefault();location.href='mailto:hello@example.com?subject='+encodeURIComponent('پیام از '+$('#nm').value)+'&body='+encodeURIComponent($('#ms').value+'\n\n'+$('#em').value)};
+window.__ok=1;
+</script>
+</body>
+</html>
